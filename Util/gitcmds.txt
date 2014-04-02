@@ -1,1 +1,10 @@
-git clone https://github.com/DocKlobi/Millionaire.git
+git config --global user.name <name> # user name in der aktuellen Sitzung setzen
+git config --global user.email <email> # email Adresse in der aktuellen Sitzung setzen
+git init # initialisiert eine git-Ueberwachung im aktuellen Verzeichnis
+git add <filename> # fuegt eine Datei zum git-Repository (lokal) hinzu
+git add * # fuegt alle Dateien/Verzeichnisse hinzu
+git commit -m <commit message> # commit changes
+git remote add origin https://github.com/DocKlobi/Millionaire.git # vor der ersten push muss das remote Verzeichnis gesetzt sein (nicht notwendig, wenn geklont wurde)
+git push -u origin master # aktualisiert das remote Verzeichnis mit den lokalen Aenderungen
+git clone https://github.com/DocKlobi/Millionaire.git # klont ein remote Verzeichnis/Projekt
+hae!!!
