@@ -7,3 +7,4 @@ git commit -m <commit message> # commit changes
 git remote add origin https://github.com/DocKlobi/Millionaire.git # vor der ersten push muss das remote Verzeichnis gesetzt sein (nicht notwendig, wenn geklont wurde)
 git push -u origin master # aktualisiert das remote Verzeichnis mit den lokalen Aenderungen
 git clone https://github.com/DocKlobi/Millionaire.git # klont ein remote Verzeichnis/Projekt
+git rm <Verzeichnis/Datei> # loescht Dateien, die dann mit git commmit und git push auch auf dem Remote-Server geloescht werden
